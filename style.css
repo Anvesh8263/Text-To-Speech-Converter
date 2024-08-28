@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+h1{
+    font-style: italic;
+}
+h3{
+    font-style: italic;
+}
+
+.Hello {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(50deg, #fbff00, #ac4c4c);
+}
+
+.speech {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+}
+
+.Anni {
+    padding: 0 1rem;
+}
+
+.Moto {
+    display: flex;
+    align-items: normal;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.text-control {
+    padding: 0.5rem;
+    margin: 2rem 0;
+    background-color: #3f464a52;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+
+.text-control:focus-visible {
+    outline: none;
+}
+
+.error-para {
+    color: red;
+}
+
+.btn {
+    padding: 0.8rem;
+    background-image: linear-gradient(90deg, #F4244C, #c13803);
+    border: 1px solid transparent;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.25s;
+    font-style: italic;
+}
+
+.btn:hover {
+    padding: 1rem;
+}
